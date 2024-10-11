@@ -61,15 +61,32 @@
           I'm <span>Adeeba Naushad</span>
         </h3>
         <p>I am a <span class="typing-text"></span></p>
-      <a
+      <!-- <a
   href="assests/js/AdeebaNaushad-FrontendDeveloper(React)-a2XC.pdf"
   target="_blank"
   class="btn"
   download="Adeeba Naushad-resume.pdf"
->
-  <span>Resume</span>
+> -->
+<button class="btn" id="resumeButton">Resume  <i class="fas fa-arrow-circle-up"></i></button>
+
+
+<script>
+  document.getElementById('resumeButton').addEventListener('click', function() {
+      const pdfUrl = 'resume.pdf'; // Path to your resume PDF file
+
+      // Open in a new tab
+      window.open(pdfUrl, '_blank');
+
+      // Trigger file download
+      const downloadLink = document.createElement('a');
+      downloadLink.href = pdfUrl;
+      downloadLink.download = 'Adeeba-Naushad-resume.pdf'; // Set the file name for the download
+      downloadLink.click();
+  });
+</script>
+  <!-- <span>Resume</span>
   <i class="fas fa-arrow-circle-up"></i>
-</a>
+</a> -->
 
         <div class="socials">
           <ul class="social-icons">
@@ -151,14 +168,29 @@
             </div>
           </div>
           <div class="resumebtn">
-            <a
+            <!-- <a
               href="assests/js/AdeebaNaushad-FrontendDeveloper(React)-a2XC.pdf"
               target="_blank"
               class="btn"
               download="Adeeba Naushad-resume.pdf"
               ><span>Resume</span>
               <i class="fas fa-chevron-right"></i>
-            </a>
+            </a> -->
+        <button class="btn" id="resumeButton2">Resume  <i class="fas fa-arrow-circle-up"></i></button>
+        <script>
+          document.getElementById('resumeButton2').addEventListener('click', function() {
+              const pdfUrl = 'resume.pdf'; // Path to your resume PDF file
+        
+              // Open in a new tab
+              window.open(pdfUrl, '_blank');
+        
+              // Trigger file download
+              const downloadLink = document.createElement('a');
+              downloadLink.href = pdfUrl;
+              downloadLink.download = 'Adeeba-Naushad-resume.pdf'; // Set the file name for the download
+              downloadLink.click();
+          });
+        </script>
           </div>
         </div>
 
