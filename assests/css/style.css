@@ -991,3 +991,7 @@ form .button-area {
 .project_button a:hover i {
   transform: translateX(5px);
 }
+.info img {
+    width: 48px!important;
+    height: 48px !important;
+  }
