@@ -96,11 +96,25 @@
     "icon": "https://img.icons8.com/?size=48&id=34886&format=png&color=000000"
 }
 ,
-{
+  {
+    "name": "Communication",
+    "icon": "https://img.icons8.com/?size=100&id=44024&format=png&color=000000"
+  },
+  {
+    "name": "Problem Solving",
+    "icon": "https://img.icons8.com/?size=100&id=59862&format=png&color=000000"
+  },
+  {
+    "name": "Teamwork",
+    "icon": "https://img.icons8.com/?size=100&id=118377&format=png&color=000000"
+  },
+  {
+    "name": "Creativity",
+    "icon": "https://img.icons8.com/?size=100&id=111413&format=png&color=000000"
+  },
+  {
     "name": "Leadership",
     "icon": "https://img.icons8.com/?size=100&id=114323&format=png&color=000000"
-}
+  }
 
-   
-   
 ]
