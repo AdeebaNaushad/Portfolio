@@ -931,7 +931,7 @@ form .button-area {
   
 }
 
-.card-ad{
+.card__pr{
   width: 350px;
   -webkit-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
@@ -949,13 +949,12 @@ form .button-area {
   text-align: center;
   box-shadow: 0 8px 32px rgba(255, 147, 79, 0.37);
 }
-.card-ad>img{
-
+.card__pr>img{
   width: 100%;
   border-radius: 10px;
   object-fit: cover;
 }
-.card-ad h1 {
+.card__pr h1 {
   font-size: 2rem;
 }
 .project_button{
@@ -966,7 +965,7 @@ form .button-area {
 
 
 }
-.card-ad p{
+.card__pr p{
   font-size: 1.2rem;
 }
 .project_button>a{
